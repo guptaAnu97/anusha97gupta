@@ -1,0 +1,9 @@
+package com;
+
+public class Test {
+public static void main(String[] args) {
+	int var;
+	var = var +1;
+	System.out.println("var ="+var);
+	}
+}

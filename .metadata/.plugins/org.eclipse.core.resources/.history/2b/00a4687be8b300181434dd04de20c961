@@ -1,0 +1,40 @@
+package project;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//@SuppressWarnings("resource")
+		String fast = "Fast";
+		String sh ="Short";
+		Scanner sc = new Scanner(System.in);
+		boolean powerplay = sc.nextBoolean();
+		String ball = sc.next();
+		if(powerplay) {
+			if(ball == fast) {
+			System.out.println("Yes");
+		}
+			if(ball == sh) {
+				System.out.println("Yes");
+			}
+			else {
+				System.out.println("Invalid Input");
+			}
+		}
+		else {
+			if (ball == fast) {
+				System.out.println("Yes");
+			}
+			else if(ball == sh) {
+				System.out.println("No");
+			}
+			else {
+				System.out.println("Invalid Input");
+			}
+		}	
+		
+
+	}
+
+}

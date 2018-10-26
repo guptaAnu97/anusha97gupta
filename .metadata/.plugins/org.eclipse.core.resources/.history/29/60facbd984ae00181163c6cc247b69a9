@@ -1,0 +1,42 @@
+package project;
+
+public class Method {
+	final static int value;
+	final int num = 898;
+	static {
+		System.out.println("Static block");
+		value= 100;
+		System.out.println(value);
+	}
+	
+	{
+		System.out.println("Instance block");
+		System.out.println(num);
+		System.out.println(value);
+	}
+	
+
+	public static void main(String[] args) {
+		
+		object();
+		myMethod();
+		//t.myName();
+		//System.out.println(t.num);
+	}
+	
+	public static void myMethod() {
+		System.out.println("Hello world");
+		
+	}
+	
+	void myName(){
+		System.out.println("Hello Java");
+	}
+	
+	public static void object() {
+		Method t = new Method();
+		
+	}
+
+}
+

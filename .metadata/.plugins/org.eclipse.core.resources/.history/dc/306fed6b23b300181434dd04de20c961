@@ -1,0 +1,17 @@
+package project;
+import java.util.Scanner;
+class Method{
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	String input = sc.next();
+	if (input.equals("Full")) {
+		System.out.println("Yes");
+	}
+	else if (input.equals("Short ") ) {
+		System.out.println("no");
+	}
+	else {
+		System.out.println("Invalid");
+	}
+}
+}

@@ -1,0 +1,15 @@
+package project;
+
+import java.text.DecimalFormat;
+import java.util.Scanner;
+class Method{
+	public static DecimalFormat ft = new DecimalFormat(".##");
+    @SuppressWarnings("resource")
+	public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        float rr1 = sc.nextFloat();
+        float rr2 = sc.nextFloat();
+        float runrate = ((float)(rr1*10 +rr2*40))/50;
+        System.out.printf(ft.format(runrate));
+    }
+}

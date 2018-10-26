@@ -1,0 +1,11 @@
+package com;
+
+public class Test {
+public static void main(String[] args) {
+	String s;
+	int a;
+	s = "Foolish boy.";
+	a = s.indexOf("fool");
+	System.out.println(a);
+	}
+}
